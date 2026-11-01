@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Datasets and generated files
+api/data/*.csv
+*.log
+
+# Node / Vite
+web/node_modules/
+web/dist/
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
